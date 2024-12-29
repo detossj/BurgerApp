@@ -1,0 +1,15 @@
+/* En tu archivo CSS */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las columnas */
+  }
+  
+  .menu {
+    grid-column: 1; /* Columna izquierda */
+  }
+  
+  .carrito {
+    grid-column: 2; /* Columna derecha */
+  }
+  
