@@ -10,8 +10,13 @@ export const App = () => {
 
   return (
     <>
+
       <Header></Header>
+      
       <Menu></Menu>
+
+      
+      
     </>
   )
 }
