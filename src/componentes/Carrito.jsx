@@ -3,7 +3,7 @@
 export const Carrito = () => {
   return (
     <>
-      <div>Carrito
+      <div className="carrito">Carrito
 
       </div>
     </>
