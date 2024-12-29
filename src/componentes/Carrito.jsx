@@ -3,8 +3,8 @@
 export const Carrito = () => {
   return (
     <>
-      <div className="carrito">Carrito
-
+      <div>Carrito
+        Nahseii22
       </div>
     </>
   )
