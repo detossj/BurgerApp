@@ -1,69 +1,80 @@
 {
-    "hamburguesas": [
-      {
-        "id": 1,
-        "nombre": "Clásica",
-        "precio": 5.99
-      },
-      {
-        "id": 2,
-        "nombre": "Doble Queso",
-        "precio": 7.49
-      },
-      {
-        "id": 3,
-        "nombre": "Pollo BBQ",
-        "precio": 6.99
-      },
-      {
-        "id": 4,
-        "nombre": "Vegana",
-        "precio": 8.99
-      },
-      {
-        "id": 5,
-        "nombre": "Picante Jalapeño",
-        "precio": 7.99
-      }
-    ],
-    "agregados": [
-      {
-        "id": 1,
-        "nombre": "Papas Fritas",
-        "precio": 2.49
-      },
-      {
-        "id": 2,
-        "nombre": "Aros de Cebolla",
-        "precio": 2.99
-      },
-      {
-        "id": 3,
-        "nombre": "Nachos con Queso",
-        "precio": 3.49
-      }
-    ],
-    "bebidas": [
-      {
-        "id": 1,
-        "nombre": "Coca-Cola",
-        "precio": 1.99
-      },
-      {
-        "id": 2,
-        "nombre": "Limonada",
-        "precio": 1.79
-      },
-      {
-        "id": 3,
-        "nombre": "Cerveza",
-        "precio": 3.99
-      },
-      {
-        "id": 4,
-        "nombre": "Agua Mineral",
-        "precio": 1.49
-      }
-    ]
-  }
-  
+  "hamburguesas": [
+    {
+      "id": 1,
+      "nombre": "Clásica",
+      "precio": 5.99,
+      "url": "https://images.unsplash.com/photo-1550547660-d9450f859349"
+    },
+    {
+      "id": 2,
+      "nombre": "Doble Queso",
+      "precio": 7.49,
+      "url": "https://images.unsplash.com/photo-1550317138-10000687a72b"
+    },
+    {
+      "id": 3,
+      "nombre": "Pollo BBQ",
+      "precio": 6.99,
+      "url": "https://images.unsplash.com/photo-1571159489921-d09a4cc14c94"
+    },
+    {
+      "id": 4,
+      "nombre": "Vegana",
+      "precio": 8.99,
+      "url": "https://images.unsplash.com/photo-1564836235915-7f1fca80d3f1"
+    },
+    {
+      "id": 5,
+      "nombre": "Picante Jalapeño",
+      "precio": 7.99,
+      "url": "https://images.unsplash.com/photo-1600117090564-80ab5fc6b0e5"
+    }
+  ],
+  "agregados": [
+    {
+      "id": 1,
+      "nombre": "Papas Fritas",
+      "precio": 2.49,
+      "url": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90"
+    },
+    {
+      "id": 2,
+      "nombre": "Aros de Cebolla",
+      "precio": 2.99,
+      "url": "https://images.unsplash.com/photo-1612036789446-ae6508d4b6ce"
+    },
+    {
+      "id": 3,
+      "nombre": "Nachos con Queso",
+      "precio": 3.49,
+      "url": "https://images.unsplash.com/photo-1601924578930-81e1a036d5c7"
+    }
+  ],
+  "bebidas": [
+    {
+      "id": 1,
+      "nombre": "Coca-Cola",
+      "precio": 1.99,
+      "url": "https://images.unsplash.com/photo-1588863427445-491b47e01b02"
+    },
+    {
+      "id": 2,
+      "nombre": "Limonada",
+      "precio": 1.79,
+      "url": "https://images.unsplash.com/photo-1553531888-8b66c2a64edb"
+    },
+    {
+      "id": 3,
+      "nombre": "Cerveza",
+      "precio": 3.99,
+      "url": "https://images.unsplash.com/photo-1564936282161-717c1d7d6c22"
+    },
+    {
+      "id": 4,
+      "nombre": "Agua Mineral",
+      "precio": 1.49,
+      "url": "https://images.unsplash.com/photo-1567409378873-888d6fa7debc"
+    }
+  ]
+}
