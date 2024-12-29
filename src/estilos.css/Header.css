@@ -4,3 +4,40 @@ header{
   height: 7rem;
   
 }
+/* Nav container */
+nav {
+  background-color: #f8f9fa; /* Color de fondo del menú */
+  padding: 10px 0; /* Espaciado interno */
+  border-bottom: 2px solid #ddd; /* Línea inferior */
+  margin-top: 30px;
+}
+
+/* Lista no ordenada */
+nav ul {
+  list-style: none; /* Sin puntos o números */
+  display: flex; /* Alinea los elementos en fila */
+  justify-content: left; /* Centra el contenido */
+  margin: 0; /* Sin margen */
+  padding: 0; /* Sin relleno */
+}
+
+/* Elementos de lista */
+nav ul li {
+  margin: 0 15px; /* Espaciado entre los elementos */
+}
+
+/* Enlaces */
+nav ul li a {
+  text-decoration: none; /* Sin subrayado */
+  color: #333; /* Color del texto */
+  font-size: 16px; /* Tamaño del texto */
+  font-weight: bold; /* Texto en negrita */
+  padding: 5px 10px; /* Espaciado interno del enlace */
+  transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+/* Efecto hover */
+nav ul li a:hover {
+  background-color: #eaeaea; /* Fondo gris claro al pasar el mouse */
+  border-radius: 5px; /* Bordes redondeados */
+}
