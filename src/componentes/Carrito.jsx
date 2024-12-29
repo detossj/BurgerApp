@@ -2,6 +2,8 @@
 
 export const Carrito = () => {
   return (
-    <div>Carrito</div>
+    <>
+      <div>Carrito</div>
+    </>
   )
 }

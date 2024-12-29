@@ -1,5 +1,6 @@
 import { useState , useEffect } from "react"
 import { MenuItem } from "./MenuItem";
+import { Nav } from "./Nav";
 
 const getMenu = async ()=>{
   try {
@@ -35,12 +36,18 @@ console.log(menu)
 
 
   return (
-      <div>
-        {
-          menu.map((burguer)=>{
-            return <MenuItem key={burguer.id} nombre={burguer.nombre} precio={burguer.precio } ></MenuItem>
-          })
-        }
-      </div>
+      <>
+        
+        <div>
+        <Nav></Nav>
+          <div className="hamburguesas-container">
+            {
+              menu.map((burguer)=>{
+                return <MenuItem key={burguer.id} nombre={burguer.nombre} precio={burguer.precio} url={burguer.url} ></MenuItem>
+              })
+            }
+          </div>
+        </div>
+      </>
   )
 }
