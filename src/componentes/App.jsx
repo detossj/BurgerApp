@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header } from './Header'
-import { Nav } from './Nav'
+import { Menu } from './Menu'
 
 
 
@@ -9,7 +9,7 @@ export const App = () => {
   return (
     <>
       <Header></Header>
-      <Nav></Nav>
+      <Menu></Menu>
     </>
   )
 }

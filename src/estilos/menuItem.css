@@ -1,0 +1,39 @@
+/* Estilo general para el contenedor de la tarjeta */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    overflow: hidden; /* Para que las esquinas no se salgan */
+    text-align: center; /* Centra el contenido dentro de la tarjeta */
+    max-width: 300px; /* Ancho máximo de la tarjeta */
+    margin: 20px;
+    padding: 15px;
+  }
+  
+  /* Estilo para la imagen */
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Esquinas redondeadas para la imagen */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+  }
+  
+  /* Estilo para el nombre y precio */
+  .card p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+  
+  /* Estilo específico para el nombre de la hamburguesa */
+  .card p:first-of-type {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #333; /* Un color oscuro para resaltar el nombre */
+  }
+  
+  /* Estilo específico para el precio */
+  .card p:last-of-type {
+    font-size: 1.2rem;
+    color: #e74c3c; /* Un color rojo para resaltar el precio */
+  }
+  
