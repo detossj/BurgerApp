@@ -4,7 +4,7 @@ export const Carrito = () => {
   return (
     <>
       <div>Carrito
-        Nahseii
+        Nah
       </div>
     </>
   )
