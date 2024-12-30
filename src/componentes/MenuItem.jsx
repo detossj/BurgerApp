@@ -1,15 +1,12 @@
-
-
-export const MenuItem = ({nombre,precio,url}) => {
-
-    
-
+export const MenuItem = ({ burguer, AgregarAlCarro }) => {
   return (
     <div className="card">
-        <img src={url} alt="Imagen de Hamburguesa referencia" />   
-        <p>{nombre}</p>
-        <p>{precio}</p>
-        <button className="button">Agregar</button>
+      <img src={burguer.url} alt={`Imagen de ${burguer.nombre}`} />
+      <p>{burguer.nombre}</p>
+      <p>${burguer.precio.toFixed(2)}</p>
+      <button onClick={AgregarAlCarro} className="button">
+        Agregar
+      </button>
     </div>
-  )
-}
+  );
+};
