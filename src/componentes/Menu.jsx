@@ -14,7 +14,7 @@ const getMenu = async ()=>{
 
 }
 
-export const Menu = ({AgregarAlCarro}) => {
+export const Menu = ({AgregarAlCarro, className}) => {
 
 const [menu, setmenu] = useState([])
 
@@ -38,7 +38,7 @@ useEffect(() => {
   return (
       <>
         
-        <div>
+        <div className={className}>
         <Nav></Nav>
           <div className="hamburguesas-container">
             {

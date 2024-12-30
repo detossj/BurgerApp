@@ -26,9 +26,27 @@
     },
     {
       "id": 5,
-      "nombre": "Picante Jalapeño",
+      "nombre": "Jalapeño",
       "precio": 7.99,
       "url": "https://images.unsplash.com/photo-1508737027454-e6454ef45afd"
+    },
+    {
+      "id": 6,
+      "nombre": "Bacon Deluxe",
+      "precio": 8.49,
+      "url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+    },
+    {
+      "id": 7,
+      "nombre": "Cheddar Bacon",
+      "precio": 9.49,
+      "url": "https://plus.unsplash.com/premium_photo-1683619761492-639240d29bb5"
+    },
+    {
+      "id": 8,
+      "nombre": "Mushroom Swiss",
+      "precio": 8.99,
+      "url": "https://images.unsplash.com/photo-1534790566855-4cb788d389ec"
     }
   ],
   "agregados": [

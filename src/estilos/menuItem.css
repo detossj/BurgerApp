@@ -1,7 +1,7 @@
 .hamburguesas-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Crea columnas adaptativas */
-  gap: 20px; /* Espacio entre las hamburguesas */
+  gap: 5px; /* Espacio entre las hamburguesas */
   padding: 20px;
 }
 
@@ -9,18 +9,18 @@
 .card {
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
   overflow: hidden; /* Para que las esquinas no se salgan */
   text-align: center; /* Centra el contenido dentro de la tarjeta */
   max-width: 300px; /* Ancho máximo de la tarjeta */
-  margin: 20px;
-  padding: 15px;
+  margin: 10px;
+  padding: 10px;
 }
 
 /* Estilo para la imagen */
 .card img {
-  width: 100%;
-  height: auto;
+  width: 150px;
+  height: 150px;
   border-radius: 8px; /* Esquinas redondeadas para la imagen */
   object-fit: cover; /* Mantiene la proporción de la imagen */
 }

@@ -1,8 +1,8 @@
-export const Carrito = ({ contenido }) => {
+export const Carrito = ({ contenido, className }) => {
   return (
     <>
       
-      <div>
+      <div className={className}>
         <h2>Tu pedido</h2>
         {contenido.map((producto, index) => (
           <div className="order-item" key={index}>
