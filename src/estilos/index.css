@@ -12,4 +12,45 @@
   .carrito {
     grid-column: 2; /* Columna derecha */
   }
+  .order-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    max-width: 300px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .order-item-image {
+    border-radius: 8px;
+    margin-right: 12px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  .order-item-content {
+    flex: 1;
+  }
+  
+  .order-item-name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .order-item-quantity {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .order-item-price {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+  }
   

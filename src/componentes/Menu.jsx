@@ -14,7 +14,7 @@ const getMenu = async ()=>{
 
 }
 
-export const Menu = () => {
+export const Menu = ({AgregarAlCarro}) => {
 
 const [menu, setmenu] = useState([])
 
@@ -32,7 +32,7 @@ useEffect(() => {
 }, []); // Se ejecuta una sola vez al montar el componente
 
 
-console.log(menu)
+
 
 
   return (
@@ -43,7 +43,7 @@ console.log(menu)
           <div className="hamburguesas-container">
             {
               menu.map((burguer)=>{
-                return <MenuItem key={burguer.id} nombre={burguer.nombre} precio={burguer.precio} url={burguer.url} ></MenuItem>
+                return <MenuItem AgregarAlCarro={() => AgregarAlCarro(burguer)} key={burguer.id} burguer={burguer}  ></MenuItem>
               })
             }
           </div>
