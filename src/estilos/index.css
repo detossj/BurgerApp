@@ -1,7 +1,7 @@
 /* En tu archivo CSS */
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+    grid-template-columns: 2fr 1fr; /* Dos columnas de igual tamaño */
     gap: 20px; /* Espacio entre las columnas */
     background-color: white;
     border-radius: 15px;
@@ -22,13 +22,19 @@
     text-align: center;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 20px;
   }
+  
   .order-item {
     display: flex;
     align-items: center;
+    justify-content: center;
     border: 1px solid #ccc;
-    padding: 8px;
-    max-width: 300px;
+    padding: 16px; /* Más espacio interno */
+    min-width: 400px; /* Aumenta el tamaño máximo */
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     font-family: Arial, sans-serif;
@@ -37,31 +43,34 @@
   
   .order-item-image {
     border-radius: 8px;
-    margin-right: 12px;
-    width: 60px;
-    height: 60px;
+    margin-right: 16px; /* Más espacio entre imagen y texto */
+    width: 80px; /* Imagen más grande */
+    height: 80px;
     object-fit: cover;
+    justify-content: center;
+
   }
   
   .order-item-content {
     flex: 1;
+    text-align: center;
   }
   
   .order-item-name {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px; /* Texto más grande */
     font-weight: bold;
   }
   
   .order-item-quantity {
-    margin: 4px 0;
-    font-size: 14px;
+    margin: 8px 0;
+    font-size: 16px; /* Texto más grande */
     color: #555;
   }
   
   .order-item-price {
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     color: #000;
   }
