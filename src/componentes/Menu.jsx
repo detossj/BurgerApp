@@ -14,23 +14,36 @@ const getMenu = async ()=>{
 
 }
 
-export const Menu = ({AgregarAlCarro, className}) => {
+export const Menu = ({ AgregarAlCarro, className }) => {
+  const [allMenuData, setAllMenuData] = useState({}); // Para almacenar todos los datos
+  const [menu, setMenu] = useState([]); // Para almacenar los datos filtrados
+  const [currentButton, setCurrentButton] = useState(1); // Botón seleccionado
 
-const [menu, setmenu] = useState([])
-
-
-
-useEffect(() => {
-  // Función asíncrona dentro de useEffect para esperar los datos
-  const fetchMenuData = async () => {
-    const datos = await getMenu(); // Espera a que se resuelvan los datos
-    setmenu(datos.hamburguesas); // Establece el estado con los datos de hamburguesas
+  const OnChangeNav = (numero) => {
+    setCurrentButton(numero);
   };
 
-  fetchMenuData(); // Llama a la función que obtiene los datos
+  useEffect(() => {
+    // Cargar los datos solo una vez al montar el componente
+    const fetchMenuData = async () => {
+      const datos = await getMenu();
+      setAllMenuData(datos); // Guardar todos los datos en el estado
+      setMenu(datos.hamburguesas || []); // Inicializar con hamburguesas
+    };
 
-}, []); // Se ejecuta una sola vez al montar el componente
+    fetchMenuData();
+  }, []);
 
+  useEffect(() => {
+    // Actualizar el menú mostrado según el botón seleccionado
+    if (currentButton === 1) {
+      setMenu(allMenuData.hamburguesas || []);
+    } else if (currentButton === 2) {
+      setMenu(allMenuData.bebidas || []);
+    } else if (currentButton === 3) {
+      setMenu(allMenuData.agregados || []);
+    }
+  }, [currentButton, allMenuData]);
 
 
 
@@ -39,11 +52,11 @@ useEffect(() => {
       <>
         
         <div className={className}>
-        <Nav></Nav>
+        <Nav OnChangeNav={OnChangeNav}></Nav>
           <div className="hamburguesas-container">
             {
-              menu.map((burguer)=>{
-                return <MenuItem AgregarAlCarro={() => AgregarAlCarro(burguer)} key={burguer.id} burguer={burguer}  ></MenuItem>
+              menu.map((producto)=>{
+                return <MenuItem AgregarAlCarro={() => AgregarAlCarro(producto)} key={producto.id} producto={producto}  ></MenuItem>
               })
             }
           </div>

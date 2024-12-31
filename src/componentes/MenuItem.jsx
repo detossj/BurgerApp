@@ -1,9 +1,9 @@
-export const MenuItem = ({ burguer, AgregarAlCarro }) => {
+export const MenuItem = ({ producto, AgregarAlCarro }) => {
   return (
     <div className="card">
-      <img src={burguer.url} alt={`Imagen de ${burguer.nombre}`} />
-      <p>{burguer.nombre}</p>
-      <p>${burguer.precio.toFixed(2)}</p>
+      <img src={producto.url} alt={`Imagen de ${producto.nombre}`} />
+      <p>{producto.nombre}</p>
+      <p>${producto.precio.toFixed(2)}</p>
       <button onClick={AgregarAlCarro} className="button">
         Agregar
       </button>
