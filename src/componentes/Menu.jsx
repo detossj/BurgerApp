@@ -4,7 +4,7 @@ import { Nav } from "./Nav";
 
 const getMenu = async ()=>{
   try {
-    const resp = await fetch('./public/bd/Menu.json');
+    const resp = await fetch('https://detossj.github.io/Json-BurgerApp/Menu.json');
     const data = await resp.json();
     
     return data
