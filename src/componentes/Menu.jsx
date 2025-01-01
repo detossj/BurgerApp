@@ -4,7 +4,7 @@ import { Nav } from "./Nav";
 
 const getMenu = async ()=>{
   try {
-    const resp = await fetch('./bd/Menu.json');
+    const resp = await fetch('./src/bd/Menu.json');
     const data = await resp.json();
     
     return data
