@@ -1,0 +1,113 @@
+{
+  "hamburguesas": [
+    {
+      "id": 1,
+      "nombre": "Clásica",
+      "precio": 5.99,
+      "url": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Doble Queso",
+      "precio": 7.49,
+      "url": "https://images.unsplash.com/photo-1550317138-10000687a72b",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Pollo BBQ",
+      "precio": 6.99,
+      "url": "https://images.unsplash.com/photo-1521305916504-4a1121188589",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Vegana",
+      "precio": 8.99,
+      "url": "https://images.unsplash.com/photo-1571116260185-78bf30c0cc95",
+      "cantidad": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Jalapeño",
+      "precio": 7.99,
+      "url": "https://images.unsplash.com/photo-1508737027454-e6454ef45afd",
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Bacon Deluxe",
+      "precio": 8.49,
+      "url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "cantidad": 1
+    },
+    {
+      "id": 7,
+      "nombre": "Cheddar Bacon",
+      "precio": 9.49,
+      "url": "https://plus.unsplash.com/premium_photo-1683619761492-639240d29bb5",
+      "cantidad": 1
+    },
+    {
+      "id": 8,
+      "nombre": "Mushroom Swiss",
+      "precio": 8.99,
+      "url": "https://images.unsplash.com/photo-1534790566855-4cb788d389ec",
+      "cantidad": 1
+    }
+  ],
+  "agregados": [
+    {
+      "id": 9,
+      "nombre": "Papas Fritas",
+      "precio": 2.49,
+      "url": "https://images.unsplash.com/photo-1630431341771-1ceb084d6607",
+      "cantidad": 1
+    },
+    {
+      "id": 10,
+      "nombre": "Aros de Cebolla",
+      "precio": 2.99,
+      "url": "https://www.paulinacocina.net/wp-content/uploads/2021/12/aros-de-cebolla-fritos-1200x675.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 11,
+      "nombre": "Nachos con Queso",
+      "precio": 3.49,
+      "url": "https://okdiario.com/img/2018/02/27/nachos-con-queso.jpg",
+      "cantidad": 1
+    }
+  ],
+  "bebidas": [
+    {
+      "id": 12,
+      "nombre": "Coca-Cola",
+      "precio": 1.99,
+      "url": "https://www.coca-cola.com/content/dam/onexp/sv/es/brands/coca-cola/7840058007537.png",
+      "cantidad": 1
+    },
+    {
+      "id": 13,
+      "nombre": "Limonada",
+      "precio": 1.79,
+      "url": "https://cdn0.uncomo.com/es/posts/7/6/6/como_hacer_limonada_7667_600.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 14,
+      "nombre": "Cerveza",
+      "precio": 3.99,
+      "url": "https://cdnx.jumpseller.com/dc-central-distribuidora-de-licores/image/23076507/Sin_t_tulo.png",
+      "cantidad": 1
+    },
+    {
+      "id": 15,
+      "nombre": "Agua Mineral",
+      "precio": 1.49,
+      "url": "https://tost.cl/cdn/shop/files/20AA02_1200x.jpg?v=1725908832",
+      "cantidad": 1
+    }
+  ]
+}
