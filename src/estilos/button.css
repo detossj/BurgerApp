@@ -1,14 +1,28 @@
-.button{
-    background-color: gray;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    margin: 5px;
-    padding: 5px;
-    font-size: 1.1rem;
-    
+.button {
+    background-color: #e0e0e0; /* Gris claro para el fondo inicial */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center; /* Centrado del texto */
+    margin: 5px; /* Espaciado externo */
+    padding: 10px 15px; /* Espaciado interno */
+    font-size: 1.1rem; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita para el texto */
+    color: #333333; /* Color del texto */
+    border: none; /* Sin borde adicional */
+    cursor: pointer; /* Manito al pasar el ratón */
+    transition: all 0.3s ease; /* Animación suave para el hover */
 }
-.button:hover {
-    background-color: green;
 
+.button:hover {
+    background-color: #999999; /* Gris oscuro al pasar el ratón */
+    color: #ffffff; /* Texto blanco para contraste */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más destacada */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Active State */
+.button:active {
+    background-color: #666666; /* Gris aún más oscuro al presionar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más pequeña */
+    transform: translateY(1px); /* Botón se hunde ligeramente */
 }
