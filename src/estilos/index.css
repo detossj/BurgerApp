@@ -1,8 +1,8 @@
 /* En tu archivo CSS */
 .container {
     display: grid;
-    grid-template-columns: 750px 500px; /* Dos columnas de igual tamaño */
-    gap: 20px; /* Espacio entre las columnas */
+    grid-template-columns: 65% 35%; /* Dos columnas de igual tamaño */
+    gap: 30px; /* Espacio entre las columnas */
     background-color: white;
     border-radius: 15px;
     margin: 30px;
