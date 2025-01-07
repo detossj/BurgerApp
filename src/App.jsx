@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Header } from './Header';
-import { Menu } from './Menu';
-import { Carrito } from './Carrito';
+import { Header } from './componentes/Header';
+import { Menu } from './componentes/Menu';
+import { Carrito } from './componentes/Carrito';
 
 export const App = () => {
   const [carrito, setCarrito] = useState([]);

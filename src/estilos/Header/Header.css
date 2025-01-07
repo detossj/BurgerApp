@@ -1,0 +1,37 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Cambia 'Roboto' por la fuente que elijas */
+  background-color: white;
+}
+
+
+.slogan h1 {
+  text-align: center;
+}
+.slogan img {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
+.slogan {
+  display: flex; /* Flexbox para alinear los elementos */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: space-between; /* Espaciar el título + eslogan y las redes sociales */
+  text-align: center;
+}
+
+.slogan .text {
+  display: flex; /* Alinea el texto del título y eslogan verticalmente */
+  flex-direction: column; /* Alinea en columna (título arriba, eslogan abajo) */
+  text-align: center; /* Opcional: alinear el texto a la izquierda */
+}
+
+.socials img {
+  width: 24px; /* Tamaño de los íconos */
+  height: 24px;
+  margin: 0 5px; /* Espaciado entre los íconos */
+}
+
+.slogan a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+

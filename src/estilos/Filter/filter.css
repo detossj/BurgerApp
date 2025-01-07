@@ -1,0 +1,42 @@
+/* filter container */
+filter {
+    background-color: #D3D3D3; /* Color de fondo del menú */
+    padding: 5px; /* Espaciado interno */ /* Línea inferior */
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Lista no ordenada */
+  filter ul {
+    list-style: none; /* Sin puntos o números */
+    display: flex; /* Alinea los elementos en fila */
+    justify-content: center; /* Centra el contenido */
+    margin: 5; /* Sin margen */
+    padding: 0; /* Sin relleno */
+  }
+  
+  /* Elementos de lista */
+  filter ul li {
+    margin: 0 30px; /* Espaciado entre los elementos */
+  }
+  
+  /* Enlaces */
+  filter ul li button {
+    text-decoration: none; /* Sin subrayado */
+    color: #333; /* Color del texto */
+    font-size: 20px; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    padding: 5px 10px; /* Espaciado interno del enlace */
+    transition: background-color 0.3s ease; /* Efecto de transición */
+    background-color: #D3D3D3;
+    border: none;
+    outline: none;
+  }
+  
+  /* Efecto hover */
+  filter ul li button:hover {
+    background-color: #eaeaea; /* Fondo gris claro al pasar el mouse */
+    border-radius: 5px;
+  }
+  
